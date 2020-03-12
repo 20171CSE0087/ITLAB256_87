@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>box</title>
+<style>
+p.dotted {border-style: dotted;border-width:10px;border-color:red}
+p.dashed {border-style: dashed;border-width:thick;border-color:green}
+p.solid {border-style: solid;border-width:5px 10px;border-color:red}
+p.double {border-style:double;}
+p.groove {border-style:groove; border-width:5px 10px 7px 20px; margin:auto;}
+p.ridge {border-style:ridge;}
+p.inset {border-style:inset;}
+p.outset {border-style:outset;}
+p.none {border-style:none;}
+p.hidden {border-style:hidden;}
+p.mix {border-style:dotted dashed solid double; border-width:5px 10px 7px 20px;border-color:red blue green yellow}
+div
+{
+width:300px;
+margin:auto;
+border:1px solid red;
+}
+</style>
+</head>
+<body bgcolor=lightpink>
+<p class=dotted>this is css box model.</p>
+<p class=dashed>All HTML elements can<br />
+be considered as boxes.</p>
+<p class=solid>In CSS, the term "box model" is used</p> 
+<p class=double>when talking about design and layout.</p>
+<div class=groove>The CSS box model is essentially a box</div> 
+<p class=ridge>that wraps around every HTML element.</p>
+<p class=inset> It consists of: margins, borders, padding,</p>
+<p class=outset> and the actual content.</p> 
+<p class=none>The image below illustrates</p> 
+<p class=hidden>the box model:</p>
+<p class=mix>this is a paragraph</p>
+
+<div>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+</body>
+</html>
