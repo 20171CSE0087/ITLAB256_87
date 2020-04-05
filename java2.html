@@ -1,0 +1,26 @@
+<!--write a javascript code to confirm your name using prompt and confirm boxes-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IT Assignment</title>
+</head>
+<body onload="function1()">
+<script>
+function function1(){
+var n = prompt("Pleaser enter your name");
+if(n!=null&&n!=""){
+if(window.confirm("your name is " +n+ " right?")){
+document.write("Hello there "+n+"! how are you?" );
+}
+else{
+function1();
+}}
+else{
+function1();
+}
+}
+</script>
+</body>
+</html>
